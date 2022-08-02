@@ -1,0 +1,20 @@
+#set容器因沒有順序及重複,故要更改只能新增及刪除內容元素,如要刪除需先找到那元素直接刪除
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "sun", "apple"}
+#交集
+z = x.intersection(y)
+#z=x&y
+print(z)
+#差集
+z2 = x.difference(y)
+#z2=x-y
+print(z2)
+#對稱差
+z3 = x.symmetric_difference(y)
+#z3=x^y
+print(z3)
+#聯集
+z4=x.union(y)
+#z4=x|y
+print(z4)
